@@ -10,11 +10,12 @@ namespace Methods
     {
         static void Main(string[] args)
         {
-            SayHi();
+            SayHi("Muluken");
+            Console.ReadLine();
         }
-        static void SayHi()
+        static void SayHi(string name)
         {
-            Console.WriteLine("Hello User");
+           Console.WriteLine($"Hello {name}");
         }
     }
 }

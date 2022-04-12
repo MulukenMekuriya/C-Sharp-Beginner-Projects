@@ -11,7 +11,8 @@ namespace Return_Statement
         static void Main(string[] args)
         {
             //Cube(2);
-            Console.WriteLine(Cube(2));
+            int cubedNumber = Cube(5);
+            Console.WriteLine(cubedNumber);
 
         }
         static int Cube(int num)

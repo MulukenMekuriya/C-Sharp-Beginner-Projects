@@ -11,6 +11,8 @@ namespace Methods
         static void Main(string[] args)
         {
             SayHi("Muluken");
+            SayHi("John");
+            SayHi("Daniel");
             Console.ReadLine();
         }
         static void SayHi(string name)

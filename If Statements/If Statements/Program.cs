@@ -11,12 +11,21 @@ namespace If_Statements
         static void Main(string[] args)
         {
             bool isMale = false;
+            bool isTall = true;
 
-            if (isMale)
+            if (isMale && isTall)
             {
-                Console.WriteLine("You are male");
+                Console.WriteLine("You are a tall male");
             }
-            else { Console.WriteLine("You are not male"); }
+            else if (isMale && !isTall)
+            {
+                Console.WriteLine("You are a short male");
+            }
+            else if (!isMale && isTall)
+            {
+                Console.WriteLine("You are not male, but tall");
+            }
+            else { Console.WriteLine("You are not tall or not male"); }
 
             Console.ReadLine();
         }

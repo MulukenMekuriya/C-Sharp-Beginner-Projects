@@ -10,6 +10,7 @@ namespace Methods
     {
         static void Main(string[] args)
         {
+            SayHi();
         }
         static void SayHi()
         {

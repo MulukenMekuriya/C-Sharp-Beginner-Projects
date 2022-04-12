@@ -10,14 +10,14 @@ namespace Methods
     {
         static void Main(string[] args)
         {
-            SayHi("Muluken");
-            SayHi("John");
-            SayHi("Daniel");
+            SayHi("Muluken", 10);
+            SayHi("John", 30);
+            SayHi("Daniel", 50);
             Console.ReadLine();
         }
-        static void SayHi(string name)
+        static void SayHi(string name, int age)
         {
-           Console.WriteLine($"Hello {name}");
+           Console.WriteLine($"Hello {name}, you are {age} years old.");
         }
     }
 }
